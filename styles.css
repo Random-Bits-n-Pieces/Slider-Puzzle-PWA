@@ -173,31 +173,38 @@ main {
   background-size: 300px 300px;
 }
 
-.gameBoard .tileImg0 {
+.gameBoard .tileImg0,
+.tileImg0 {
   background-image: url("imgs/Tiles0.jpg");
 }
 
-.gameBoard .tileImg1 {
+.gameBoard .tileImg1,
+.tileImg1 {
   background-image: url("imgs/Tiles1.jpg");
 }
 
-.gameBoard .tileImg2 {
+.gameBoard .tileImg2,
+.tileImg2 {
   background-image: url("imgs/Tiles2.jpg");
 }
 
-.gameBoard .tileImg3 {
+.gameBoard .tileImg3,
+.tileImg3 {
   background-image: url("imgs/Tiles3.jpg");
 }
 
-.gameBoard .tileImg4 {
+.gameBoard .tileImg4,
+.tileImg4 {
   background-image: url("imgs/Tiles4.jpg");
 }
 
-.gameBoard .tileImg5 {
+.gameBoard .tileImg5,
+.tileImg5 {
   background-image: url("imgs/Tiles5.jpg");
 }
 
-.gameBoard .tileImg6 {
+.gameBoard .tileImg6,
+.tileImg6 {
   background-image: url("imgs/Tiles6.jpg");
 }
 
@@ -240,6 +247,15 @@ main {
 
 .gameBoard .tile.position8 {
   background-position: -200px -200px;
+}
+
+#gameHint {
+  margin: 25px;
+  width: 310px;
+  height: 310px;
+  border: var(--primary-Color) solid 5px;
+  border-radius: 5px;
+  background-size: 300px 300px;
 }
 
 .hidden {

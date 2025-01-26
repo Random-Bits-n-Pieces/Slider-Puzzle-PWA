@@ -81,6 +81,7 @@ const dataTiles = [
   let emptyPosition = autoMove(tileData,allowedMoves);
 
   const gameBoard = document.getElementById('gameBoard');
+  const gameHint = document.getElementById('gameHint');
   const btnRestart = document.getElementById('btnRestart');
 
   btnRestart.addEventListener('click', () => {
@@ -91,7 +92,21 @@ const dataTiles = [
     drawGameTiles();
     const btnRestart = document.getElementById('btnRestart');
     btnRestart.classList.add('hidden');
-  })
+    btnHint.classList.remove('hidden');
+    gameHint.classList.add('tileImg' + tileNumber);
+  });
+
+  const btnHint = document.getElementById('btnHint');
+  btnHint.addEventListener('click', () => {
+    gameBoard.classList.add('hidden');
+    gameHint.classList.remove('hidden');
+    gameHint.classList.add('tileImg' + tileNumber);
+
+    const hintTimeOut = setTimeout(() => {
+        gameHint.classList.add('hidden');
+        gameBoard.classList.remove('hidden');
+    }, 1000);
+  });
 
   const handleClick = (tile) => {
     if (isComplete){
@@ -116,6 +131,7 @@ const dataTiles = [
             tempTileData[0].hidden = false;
             const btnRestart = document.getElementById('btnRestart');
             btnRestart.classList.remove('hidden');
+            btnHint.classList.add('hidden');
         }
 
         isComplete = completeChecked;
