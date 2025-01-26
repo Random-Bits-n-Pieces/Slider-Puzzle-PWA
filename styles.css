@@ -147,7 +147,7 @@ input:disabled,
 }
 
 main {
-  padding: 25px;
+  padding: 10px;
   display: grid;
   place-items: center;
 }
