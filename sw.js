@@ -6,7 +6,13 @@ self.addEventListener('install', event => {
     const cache = await caches.open(CACHE_NAME);
     cache.addAll([
       '/',
-      '/imgs/',
+      '/imgs/Tile0.jpg',
+      '/imgs/Tile1.jpg',
+      '/imgs/Tile2.jpg',
+      '/imgs/Tile3.jpg',
+      '/imgs/Tile4.jpg',
+      '/imgs/Tile5.jpg',
+      '/imgs/Tile6.jpg',
       '/main.js',
       '/styles.css'
     ]);
