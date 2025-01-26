@@ -3,14 +3,14 @@
   "name": "Slider Puzzle App",
   "short_name": "Slider Slider",
   "description": "Move the tiles around to complete the puzzle.",
-  "start_url": "/",
+  "start_url": "/Slider-Puzzle-PWA/",
   "background_color": "#2a86b2",
   "theme_color": "#2a86b2",
   "orientation": "any",
   "display": "standalone",
   "icons": [
     {
-      "src": "/icon512.png",
+      "src": "/Slider-Puzzle-PWA/icon512.png",
       "sizes": "512x512"
     }
   ]
