@@ -174,31 +174,31 @@ main {
 }
 
 .gameBoard .tileImg0 {
-  background-image: url("/imgs/Tiles0.jpg");
+  background-image: url("imgs/Tiles0.jpg");
 }
 
 .gameBoard .tileImg1 {
-  background-image: url("/imgs/Tiles1.jpg");
+  background-image: url("imgs/Tiles1.jpg");
 }
 
 .gameBoard .tileImg2 {
-  background-image: url("/imgs/Tiles2.jpg");
+  background-image: url("imgs/Tiles2.jpg");
 }
 
 .gameBoard .tileImg3 {
-  background-image: url("/imgs/Tiles3.jpg");
+  background-image: url("imgs/Tiles3.jpg");
 }
 
 .gameBoard .tileImg4 {
-  background-image: url("/imgs/Tiles4.jpg");
+  background-image: url("imgs/Tiles4.jpg");
 }
 
 .gameBoard .tileImg5 {
-  background-image: url("/imgs/Tiles5.jpg");
+  background-image: url("imgs/Tiles5.jpg");
 }
 
 .gameBoard .tileImg6 {
-  background-image: url("/imgs/Tiles6.jpg");
+  background-image: url("imgs/Tiles6.jpg");
 }
 
 .gameBoard .tile.hide {
