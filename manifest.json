@@ -11,7 +11,7 @@
   "display": "standalone",
   "icons": [
     {
-      "src": "/Slider-Puzzle-PWA/icon512.png",
+      "src": "/Slider-Puzzle-PWA/Icon512.png",
       "sizes": "512x512"
     }
   ]
