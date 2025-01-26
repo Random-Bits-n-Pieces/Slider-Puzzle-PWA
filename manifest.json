@@ -3,6 +3,7 @@
   "name": "Slider Puzzle App",
   "short_name": "Slider Slider",
   "description": "Move the tiles around to complete the puzzle.",
+  "scope": "/Slider-Puzzle-PWA/",
   "start_url": "/Slider-Puzzle-PWA/",
   "background_color": "#2a86b2",
   "theme_color": "#2a86b2",
