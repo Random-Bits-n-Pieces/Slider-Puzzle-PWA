@@ -14,13 +14,19 @@
 <body>
     <main>
         <h1>Puzzle Slider</h1>
-        <p>Select a tile next to the empty space to have it move into that location. Once all tiles are in thier correct
-            location the missing tile will appear and the puzzle will be complete.</p>
+        <details>
+            <summary>How to play</summary>
+            <p>Select a tile next to the empty space to have it move into that location. Once all tiles are in thier
+                correct
+                location the missing tile will appear and the puzzle will be complete.</p>
+        </details>
         <div id="gameBoard" class="gameBoard">
         </div>
         <div id="gameHint" class="hidden"></div>
-        <button id="btnRestart" class="hidden">Restart</button>
-        <button id="btnHint">Hint</button>
+        <div class="gameControls">
+            <div><button id="btnRestart">New Game</button></div>
+            <div><button id="btnHint">Hint</button></div>
+        </div>
     </main>
     <script type="module" src="main.js"></script>
     <script>

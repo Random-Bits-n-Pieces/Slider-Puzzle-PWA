@@ -152,6 +152,10 @@ main {
   place-items: center;
 }
 
+details {
+  text-align: center;
+}
+
 /* Game - Start */
 
 .gameBoard {
@@ -247,6 +251,17 @@ main {
 
 .gameBoard .tile.position8 {
   background-position: -200px -200px;
+}
+
+.gameControls {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.gameControls > div {
+  align-items: center;
+  align-content: center;
+  text-align: center;
 }
 
 #gameHint {
