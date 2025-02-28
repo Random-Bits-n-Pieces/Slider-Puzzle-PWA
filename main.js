@@ -98,7 +98,7 @@ const dataTiles = [
   btnHint.addEventListener('click', () => {
     gameBoard.classList.add('hidden');
     gameHint.classList.remove('hidden');
-    gameHint.classList.add('tileImg' + tileNumber);
+    // gameHint.classList.add('tileImg' + tileNumber);
 
     const hintTimeOut = setTimeout(() => {
         gameHint.classList.add('hidden');
