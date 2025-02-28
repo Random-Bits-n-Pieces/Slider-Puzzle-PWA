@@ -88,6 +88,7 @@ const dataTiles = [
     isComplete = false;
     tileData = Array.from(dataTiles);
     emptyPosition = autoMove(tileData,allowedMoves);
+    gameHint.classList.remove('tileImg' + tileNumber);
     tileNumber = ''+Math.floor(Math.random() * 7);
     drawGameTiles();
     const btnRestart = document.getElementById('btnRestart');
@@ -98,7 +99,6 @@ const dataTiles = [
   btnHint.addEventListener('click', () => {
     gameBoard.classList.add('hidden');
     gameHint.classList.remove('hidden');
-    // gameHint.classList.add('tileImg' + tileNumber);
 
     const hintTimeOut = setTimeout(() => {
         gameHint.classList.add('hidden');
