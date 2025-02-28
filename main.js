@@ -91,8 +91,6 @@ const dataTiles = [
     tileNumber = ''+Math.floor(Math.random() * 7);
     drawGameTiles();
     const btnRestart = document.getElementById('btnRestart');
-    btnRestart.classList.add('hidden');
-    btnHint.classList.remove('hidden');
     gameHint.classList.add('tileImg' + tileNumber);
   });
 
