@@ -88,6 +88,7 @@ const dataTiles = [
     isComplete = false;
     tileData = Array.from(dataTiles);
     emptyPosition = autoMove(tileData,allowedMoves);
+    btnHint.classList.remove('hidden');
     gameHint.classList.remove('tileImg' + tileNumber);
     tileNumber = ''+Math.floor(Math.random() * 7);
     drawGameTiles();
@@ -126,8 +127,6 @@ const dataTiles = [
 
         if (completeChecked === true) {
             tempTileData[0].hidden = false;
-            const btnRestart = document.getElementById('btnRestart');
-            btnRestart.classList.remove('hidden');
             btnHint.classList.add('hidden');
         }
 
