@@ -92,7 +92,6 @@ const dataTiles = [
     tileNumber = ''+Math.floor(Math.random() * 7);
     drawGameTiles();
     const btnRestart = document.getElementById('btnRestart');
-    gameHint.classList.add('tileImg' + tileNumber);
   });
 
   const btnHint = document.getElementById('btnHint');
@@ -146,6 +145,7 @@ const drawGameTile = (gameTile) => {
     newTile.className = 'tile tileImg' + tileNumber + ' position' + gameTile.position + (gameTile.hidden ? ' hide':'');
     newTile.addEventListener('click',() => {handleClick(gameTile);});
     gameBoard.append(newTile);
+    gameHint.classList.add('tileImg' + tileNumber);
 }
 
 const drawGameTiles = () => 
