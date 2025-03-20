@@ -106,6 +106,11 @@ const dataTiles = [
     }, 1000);
   });
 
+  const btnCustomise = document.getElementById('btnCustomise');
+  btnCustomise.addEventListener('click', () => {
+    
+  })
+
   const handleClick = (tile) => {
     if (isComplete){
     return;

@@ -112,7 +112,12 @@ button.disabled {
   opacity: 0.65;
 }
 
-h1 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   color: var(--primary-Color);
 }
 
@@ -154,6 +159,15 @@ main {
 
 details {
   text-align: center;
+}
+
+details[open] {
+  border-bottom: var(--primary-Color) Solid 2px;
+}
+
+details p {
+  margin-top: 5px;
+  margin-bottom: 20px;
 }
 
 /* Game - Start */
@@ -262,6 +276,7 @@ details {
   align-items: center;
   align-content: center;
   text-align: center;
+  margin-bottom: 10px;
 }
 
 #gameHint {
@@ -277,3 +292,13 @@ details {
   display: none;
 }
 /* Game - End */
+
+.tilePreview {
+  display: grid;
+  grid-column-gap: 1rem;
+  grid-row-gap: 1rem;
+  grid-template-columns: repeat(auto-fit, 150px);
+  width: calc(300px + 1rem);
+  margin: auto;
+  padding-bottom: 10px;
+}
